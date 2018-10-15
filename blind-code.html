@@ -19,43 +19,38 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+    height: 100%;
+    margin: 0;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+    
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+    
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+    </style>
 </head>
 
-<body class="tickets-page" >
-    <header class="site-header" >
-        <div class="header-bar">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-10 col-lg-4">
-                        <!-- <h1 class="site-branding flex">
-                            <a href="#">Innovison</a>
-                        </h1> -->
-                    </div>
+<body>
 
-                    <div class="col-2 col-lg-8">
-                        <nav class="site-navigation">
-                            <div class="hamburger-menu d-lg-none">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- .hamburger-menu -->
-                        </nav><!-- .site-navigation -->
-                    </div><!-- .col-12 -->
-                </div><!-- .row -->
-            </div><!-- container-fluid -->
-        </div><!-- header-bar -->
-    </header><!-- .site-header -->
-
-    <div class="page-header" style="background: url(images/blind-date-pic.jpeg); background-repeat: no-repeat; background-position: center ;  height: 900px;" >
-        <div class="container">
+    <div class="bg">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <div class="entry-header">
-                        <!-- <h2 class="entry-title">Buy tickets</h2> -->
-
-                        
-                    </div><!-- entry-header -->
+                <div class="col-lg-12">
+                   <img src="images/blind-date-pic.jpeg" class="bg">
                 </div><!-- col-12 -->
             </div><!-- row -->
         </div><!-- container -->
@@ -82,11 +77,7 @@
                         <div class="tabs-container">
                             <div id="tab_details" class="tab-content">
                                 <div class="flex flex-wrap justify-content-between">
-                                    <!-- <div class="single-event-details"> -->
-                                        <!-- <div class="single-event-details-row">
-                                            <label>Start:</label>
-                                            <p>Oct 27 @9 am </p>
-                                        </div> -->
+                                
 
                                         <div class="single-event-details-row">
                                             <label>More Details:</label>
@@ -95,11 +86,7 @@
                                             </p>
                                         </div>
 
-                                    <!-- </div> -->
-<!-- 
-                                    <div class="single-event-map">
-                                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                    </div> -->
+                                    
                                 </div>
                             </div><!-- .tab-content -->
 
