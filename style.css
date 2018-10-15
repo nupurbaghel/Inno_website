@@ -1578,7 +1578,8 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url("images/contact-header-background.jpg") no-repeat;
+    background: url("images/contact.jpg") no-repeat;
+    background-size: cover;
 }
 
 .contact-page .main-content {
