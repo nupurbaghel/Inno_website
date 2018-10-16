@@ -1232,9 +1232,6 @@ body {
 /*------------------------------------------------------------
 # Page Header
 ------------------------------------------------------------*/
-.tickets-page .page-header {
-    background: url("images/tickets-page-header-background.jpg") no-repeat;
-}
 
 .tickets-page .tabs {
     margin-top: 80px;
