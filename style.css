@@ -328,7 +328,7 @@ body {
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
 .content-section {
-    min-height: 4640px;
+    min-height: 1000px;
     width: 100%;
     padding-bottom: 120px;
     background: url("images/middle-cover.jpg") no-repeat;
@@ -812,6 +812,7 @@ body {
 # site-footer
 ------------------------------------------------------------*/
 .site-footer {
+    margin-top: 30px;
     position: relative;
     padding: 40px 0 30px;
     background: url(images/footer-cover.jpg) no-repeat;
@@ -1578,8 +1579,13 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url("images/contact.jpg") no-repeat;
-    background-size: cover;
+    background: url("images/contact.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 
 .contact-page .main-content {
